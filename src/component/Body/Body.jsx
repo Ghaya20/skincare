@@ -32,8 +32,8 @@ const Body = () => {
           </div>
         </div>
         <Category />
-        <div className="text-amber-800 bg-[url('https://ik.imagekit.io/gaia/todo/what-are-natural-skin-care-products-alt-1440x810.jpg?updatedAt=1725731838085')] bg-cover h-[700px]">
-        <div className="flex flex-col justify-start items-center text-5xl lg:text-9xl h-[600px] font-[Baskervville] font-bold">
+        <div className="text-amber-950 bg-[url('https://ik.imagekit.io/gaia/todo/what-are-natural-skin-care-products-alt-1440x810.jpg?updatedAt=1725731838085')] bg-cover h-[700px]">
+        <div className="flex flex-col justify-center items-center text-5xl lg:text-9xl h-[600px] font-[Baskervville] font-bold">
           <h1> Shop Your Latest Brands</h1>
           <h1>@mythree</h1>
         </div>
