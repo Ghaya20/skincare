@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
+  
+
+.parallax {
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-1 {
+    background-image: url('https://media.istockphoto.com/id/1347300739/photo/a-woman-presses-on-the-dispenser-of-beauty-care-products-blurred-background.jpg?s=612x612&w=0&k=20&c=AluA6I8Vwh3D04TIcp9bqF68wK2qiIuYYemcwH5MPYE=');
+}
+
+.parallax-2 {
+    background-image: url('https://media.istockphoto.com/id/1448576068/photo/alluring-glamour-asian-woman-with-sensual-look-posing-to-a-camera-over-red-shiny-background.jpg?s=612x612&w=0&k=20&c=KuCTJLyHSmT6SU9Orklz3GZgldqIHTPd2WSEVCspPr8=');
+}
+
+.parallax-3 {
+    background-image: url('https://media.istockphoto.com/id/1389992906/photo/studio-shot-of-an-attractive-young-woman-posing-against-grey-background.jpg?s=612x612&w=0&k=20&c=rZKXarJKpzGvKpbna2Q6qHzgcC-S5eRmj9J5hwrDZsM=');
+}
+
+.content {
+    height: 700px;
+    background-color: white;
+    /* text-align: center; */
+    padding: 25px;
+    font-size: 24px;
+    font-family: "Baskervville";
+}
+/* right */
+.rotate-90-cw{-webkit-animation:rotate-90-cw .4s cubic-bezier(.25,.46,.45,.94) both;animation:rotate-90-cw .4s cubic-bezier(.25,.46,.45,.94) both}
+@-webkit-keyframes rotate-90-cw{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(90deg);transform:rotate(90deg)}}@keyframes rotate-90-cw{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(90deg);transform:rotate(90deg)}}
+
+/* navbar */
+.slide-in-elliptic-top-fwd{-webkit-animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94) both}
+ @-webkit-keyframes slide-in-elliptic-top-fwd{0%{-webkit-transform:translateY(-600px) rotateX(-30deg) scale(0);transform:translateY(-600px) rotateX(-30deg) scale(0);-webkit-transform-origin:50% 100%;transform-origin:50% 100%;opacity:0}100%{-webkit-transform:translateY(0) rotateX(0) scale(1);transform:translateY(0) rotateX(0) scale(1);-webkit-transform-origin:50% 1400px;transform-origin:50% 1400px;opacity:1}}@keyframes slide-in-elliptic-top-fwd{0%{-webkit-transform:translateY(-600px) rotateX(-30deg) scale(0);transform:translateY(-600px) rotateX(-30deg) scale(0);-webkit-transform-origin:50% 100%;transform-origin:50% 100%;opacity:0}100%{-webkit-transform:translateY(0) rotateX(0) scale(1);transform:translateY(0) rotateX(0) scale(1);-webkit-transform-origin:50% 1400px;transform-origin:50% 1400px;opacity:1}}
+
+/* Header SLide */
+.slide-out-blurred-top{-webkit-animation:slide-out-blurred-top 1s cubic-bezier(.755,.05,.855,.06) both;animation:slide-out-blurred-top 1s cubic-bezier(.755,.05,.855,.06) both}
+ @-webkit-keyframes slide-out-blurred-top{0%{-webkit-transform:translateY(0) scaleY(1) scaleX(1);transform:translateY(0) scaleY(1) scaleX(1);-webkit-transform-origin:50% 0;transform-origin:50% 0;-webkit-filter:blur(0);filter:blur(0);opacity:1}100%{-webkit-transform:translateY(-1000px) scaleY(2) scaleX(.2);transform:translateY(-1000px) scaleY(2) scaleX(.2);-webkit-transform-origin:50% 0;transform-origin:50% 0;-webkit-filter:blur(40px);filter:blur(40px);opacity:0}}@keyframes slide-out-blurred-top{0%{-webkit-transform:translateY(0) scaleY(1) scaleX(1);transform:translateY(0) scaleY(1) scaleX(1);-webkit-transform-origin:50% 0;transform-origin:50% 0;-webkit-filter:blur(0);filter:blur(0);opacity:1}100%{-webkit-transform:translateY(-1000px) scaleY(2) scaleX(.2);transform:translateY(-1000px) scaleY(2) scaleX(.2);-webkit-transform-origin:50% 0;transform-origin:50% 0;-webkit-filter:blur(40px);filter:blur(40px);opacity:0}}
